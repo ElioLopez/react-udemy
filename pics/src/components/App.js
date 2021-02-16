@@ -11,7 +11,7 @@ class App extends React.Component {
       params: { query: term }
     });
 
-     this.setState({ images: response.data.results }); 
+     this.setState({ images: response.data.results });
   };
 
   render() {
@@ -20,8 +20,8 @@ class App extends React.Component {
         <SearchBar onSubmit={this.onSearchSubmit} />
         <ImageList images={this.state.images} />
       </div>
-    ); 
+    );
   }
 }
-  
+
   export default App;
