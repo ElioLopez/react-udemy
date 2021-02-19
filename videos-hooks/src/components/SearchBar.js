@@ -1,11 +1,11 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
-const SearchBar = ( {onFormSubmit} ) => {
-  const [term, setTerm] = useState ('');
+const SearchBar = ({ onFormSubmit }) => {
+  const [term, setTerm] = useState('');
 
   const onSubmit = (event) => {
     event.preventDefault();
-  
+
     onFormSubmit(term);
   };
 
@@ -17,13 +17,12 @@ const SearchBar = ( {onFormSubmit} ) => {
           <input
             type="text"
             value={term}
-            onChange={(event) =>setTerm(event.target.value)}
+            onChange={(event) => setTerm(event.target.value)}
           />
         </div>
       </form>
     </div>
   );
 };
-
 
 export default SearchBar;
