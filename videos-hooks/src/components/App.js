@@ -1,10 +1,8 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import SearchBar from './SearchBar';
 import youtube from '../apis/youtube';
 import VideoList from './VideoList';
 import VideoDetail from './VideoDetail';
-
-const KEY = 'AIzaSyCN6e98GjAfa_d4E4mISSn8uCP6g5b1DvE';
 
 const App = () => {
   const [videos, setVideos] = useState([]);
@@ -12,18 +10,12 @@ const App = () => {
 
   useEffect(() => {
     onTermSubmit('buildings');
-  }, [] );
-
-
+  }, []);
 
   const onTermSubmit = async (term) => {
     const response = await youtube.get('/search', {
       params: {
         q: term,
-        part: 'snippet',
-        maxResults: 5,
-        type: 'video',
-        key: KEY,
       },
     });
 
@@ -44,19 +36,12 @@ const App = () => {
             <VideoDetail video={selectedVideo} />
           </div>
           <div className="five wide column">
-            <VideoList
-              onVideoSelect={onVideoSelect}
-              videos={videos}
-            />
+            <VideoList onVideoSelect={onVideoSelect} videos={videos} />
           </div>
         </div>
       </div>
     </div>
   );
-
-
-
 };
-
 
 export default App;
