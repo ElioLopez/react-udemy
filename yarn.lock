@@ -2,3 +2,14 @@
 # yarn lockfile v1
 
 
+"node-bin-setup@^1.0.0":
+  "integrity" "sha512-uPIxXNis1CRbv1DwqAxkgBk5NFV3s7cMN/Gf556jSw6jBvV7ca4F9lRL/8cALcZecRibeqU+5dFYqFFmzv5a0Q=="
+  "resolved" "https://registry.npmjs.org/node-bin-setup/-/node-bin-setup-1.0.6.tgz"
+  "version" "1.0.6"
+
+"node@^15.8.0":
+  "integrity" "sha512-uuO9afbPl7CqTB9dqoYEW+co7r1/ott/kiG+btHx1ussJliolfELO6ryDp9JX0IIaRsyPgppP5FF4wkz5PP9Rw=="
+  "resolved" "https://registry.npmjs.org/node/-/node-15.8.0.tgz"
+  "version" "15.8.0"
+  dependencies:
+    "node-bin-setup" "^1.0.0"
