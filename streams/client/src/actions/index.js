@@ -1,4 +1,3 @@
-import { Stream } from 'stream';
 import streams from '../apis/streams';
 import {
      SIGN_IN,
