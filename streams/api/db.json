@@ -12,16 +12,28 @@
       "id": 2
     },
     {
-      "title": "creee un nuevo stream",
-      "description": "esto fue hecho por mi mismo",
+      "title": "hombro Elio",
+      "description": "ejercicio para el hombro de Elio",
       "userId": "116381082457665015602",
-      "id": 3
+      "id": 5
     },
     {
-      "title": "nuevo formulario",
-      "description": "un formulario loco",
+      "title": "cadera Elio",
+      "description": "ejercicio para la cadera Elio 1",
       "userId": "116381082457665015602",
-      "id": 4
+      "id": 6
+    },
+    {
+      "title": "Ejercicio hombro Aldi",
+      "description": "primer ejercicio para el hombro",
+      "userId": "115730525082354039273",
+      "id": 7
+    },
+    {
+      "title": "Ejercicio cadera Aldi",
+      "description": "Primer Ejercicio cadera de aldi",
+      "userId": "115730525082354039273",
+      "id": 8
     }
   ]
 }
