@@ -6,7 +6,7 @@
       "id": 1
     },
     {
-      "title": "el mejos post del mundo mundial",
+      "title": "el mejor post del mundo mundial",
       "description": "a ver vamos de vuelta",
       "userId": "116381082457665015602",
       "id": 2
@@ -34,6 +34,12 @@
       "description": "Primer Ejercicio cadera de aldi",
       "userId": "115730525082354039273",
       "id": 8
+    },
+    {
+      "title": "ejercicio de tobillo",
+      "description": "primer ejercicio de tobillo",
+      "userId": "115730525082354039273",
+      "id": 9
     }
   ]
 }
