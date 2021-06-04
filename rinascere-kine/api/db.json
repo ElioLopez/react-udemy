@@ -1,0 +1,202 @@
+{
+    "ejercicios": [
+        {
+            "id": 1,
+            "creadorId": 1,
+            "titulo": "rotación de hombro",
+            "region": "miembro superior",
+            "decubito": "parado"
+          },
+          {
+            "id": 2,            
+            "creadorId": 1,
+            "titulo": "flexo extensión de pie",
+            "region": "miembro inferior",
+            "decubito": "parado"
+          },
+          {
+            "id": 3,            
+            "creadorId": 2,
+            "titulo": "columna",
+            "region": "columna cervical",
+            "decubito": "acostado"
+          },
+          {
+            "id": 4,            
+            "creadorId": 2,
+            "titulo": "columna",
+            "region": "columna dorsal",
+            "decubito": "sentado"
+          }
+    ],
+     "profesionales": [
+        {
+            "id": 1,
+            "name": "Enzo Di Gioia",
+            "google_id": "",
+            "email": "Sincere@april.biz",
+            "address": {
+              "street": "Kulas Light",
+              "city": "Gwenborough"
+            },
+            "phone": "1-770-736-8031",
+            "codigo_enrol": "3963"
+        },
+        {
+            "id": 2,
+            "name": "Aldana Zaffanella",
+            "google_id": "",
+            "email": "aldikine@gmail.com",
+            "address": {
+              "street": "Am Hang 4a",
+              "city": "Rendsburg"
+            },
+            "phone": "1-770-736-8031",
+            "codigo_enrol": "3963"
+        }
+        ],
+     "paciente": [
+          {
+            "id": 1,
+            "name": "Ervin Howell",
+            "google_id": "",
+            "email": "Shanna@melissa.tv",
+            "profesional_asignado" : 1,
+            "address": {
+              "street": "Victor Plains 434",
+              "city": "Wisokyburgh"
+            },
+            "rutina" : [
+                {
+                "semana_nro": 1,
+                "desde": "3/05/2021",
+                "hasta": "7/05/2021",
+                "ejercicios_asignados": [
+                    {
+                        "id": 1,
+                        "series": 4,
+                        "repeticiones" : 3
+                    },
+                    {
+                        "id": 2,
+                        "series": 1,
+                        "repeticiones" : 5
+                    }
+                ],
+                "ejercicios_hechos": [
+                    {
+                        "id": 1,
+                        "fecha": "4/05/2021",
+                        "hora": "15:00"
+                    },
+                    {
+                        "id": 2,
+                        "fecha": "5/05/2021",
+                        "hora": "35:00"
+                    }
+                ]
+                },
+                {
+                "semana_nro": 2,
+                "desde": "10/05/2021",
+                "hasta": "14/05/2021",
+                "ejercicios_asignados": [
+                    {
+                        "id": 1,
+                        "series": 4,
+                        "repeticiones" : 3
+                    },
+                    {
+                        "id": 2,
+                        "series": 1,
+                        "repeticiones" : 5
+                    }
+                ],
+                "ejercicios_hechos": [
+                    {
+                        "id": 1,
+                        "fecha": "4/05/2021",
+                        "hora": "15:00"
+                    },
+                    {
+                        "id": 2,
+                        "fecha": "5/05/2021",
+                        "hora": "35:00"
+                    }
+                ]
+                }
+           ],
+            "phone": "010-692-6593",
+            "codigo_enrol": "1585"
+        },
+        {
+            "id": 2,
+            "name": "Francisco Lopez",
+            "google_id": "",
+            "email": "eltatarene@gmail.com",
+            "profesional_asignado" : 2,
+            "address": {
+              "street": "Laprida 858 dto 3",
+              "city": "Buenos Aires"
+            },
+            "rutina" : [
+                {
+                "semana_nro": 1,
+                "desde": "3/05/2021",
+                "hasta": "7/05/2021",
+                "ejercicios_asignados": [
+                    {
+                        "id": 1,
+                        "series": 1,
+                        "repeticiones" : 5
+                    },
+                    {
+                        "id": 2,
+                        "series": 1,
+                        "repeticiones" : 5
+                    }
+                ],
+                "ejercicios_hechos": [
+                    {
+                        "id": 1,
+                        "fecha": "4/05/2021",
+                        "hora": "15:00"
+                    },
+                    {
+                        "id": 2,
+                        "fecha": "5/05/2021",
+                        "hora": "35:00"
+                    }
+                ]
+                },
+                {
+                "semana_nro": 2,
+                "desde": "10/05/2021",
+                "hasta": "14/05/2021",
+                "ejercicios_asignados": [
+                    {
+                        "id": 1,
+                        "series": 4,
+                        "repeticiones" : 3
+                    },
+                    {
+                        "id": 2,
+                        "series": 1,
+                        "repeticiones" : 5
+                    }
+                ],
+                "ejercicios_hechos": [
+                    {
+                        "id": 1,
+                        "fecha": "4/05/2021",
+                        "hora": "15:00"
+                    }
+                ]
+                }
+           ],
+            "phone": "010-692-6593",
+            "codigo_enrol": "1585"
+        }
+
+     ]
+}
